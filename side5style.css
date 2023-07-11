@@ -1,0 +1,53 @@
+html {
+  background: var(--powder);
+}
+:root {
+  --paradise: #ef476f;
+  --crayola: #ffd166;
+  --green: #86d6a0;
+  --powder: #ffeaba;
+  --turk: #47efd0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  width: 360px;
+}
+
+.box {
+  padding: 4rem;
+}
+
+.red {
+  background: var(--paradise);
+}
+
+.yellow {
+  background: var(--crayola);
+}
+
+.green {
+  background: var(--green);
+}
+
+.move-btn:hover {
+  transform: translate(10px, 20px);
+  color: var(--powder);
+  background-color: #434f5c;
+}
+.move-btn {
+  position: relative;
+  transition: all 1s ease-in-out;
+  background-color: #5d6d7e;
+  color: #f0f3f4;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 100%;
+}
+
+.titelside5 {
+  color: var(--turk);
+  font-style: italic;
+}

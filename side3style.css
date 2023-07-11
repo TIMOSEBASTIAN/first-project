@@ -1,0 +1,254 @@
+/*         farge mørk blå  #34495E              lysere blå #5D6D7E                   */
+:root {
+  --darkinfobox: #34495e;
+  --lightinfobox: #5d6d7e;
+  --titelback: #b1afaf8e;
+}
+
+.move-btn {
+  position: relative;
+  transition: all 1s ease-in-out;
+  background-color: var(--lightinfobox);
+  color: #f0f3f4;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 100%;
+}
+.move-btn:hover {
+  transform: translate(10px, 20px);
+  color: #69813e;
+  background-color: #434f5c;
+}
+
+html {
+  background-image: url(Kodal-H05-01-scaled.jpg);
+  background-repeat: no-repeat;
+  background: 100% auto;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #2c2c2c;
+}
+
+.titlediscside {
+  background-color: var(--titelback);
+  width: 94px;
+  font-style: italic;
+}
+.titlediscsideP {
+  background-color: var(--titelback);
+  width: 124px;
+  font-style: italic;
+}
+.titlediscsideM {
+  background-color: var(--titelback);
+  width: 175px;
+  font-style: italic;
+}
+.titlediscsideD {
+  background-color: var(--titelback);
+  width: 121px;
+  font-style: italic;
+}
+
+.PUTTER1 {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+.PUTTER2 {
+  position: fixed;
+  right: 0px;
+  top: 185px;
+}
+.PUTTER3 {
+  position: fixed;
+  right: 0px;
+  top: 370px;
+}
+.PUTTER4 {
+  position: fixed;
+  right: 0px;
+  top: 555px;
+}
+
+.MIDRANGE1 {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+.MIDRANGE2 {
+  position: fixed;
+  right: 0px;
+  top: 185px;
+}
+.MIDRANGE3 {
+  position: fixed;
+  right: 0px;
+  top: 370px;
+}
+.MIDRANGE4 {
+  position: fixed;
+  right: 0px;
+  top: 555px;
+}
+
+.infobox1 {
+  background-color: var(--darkinfobox);
+  position: fixed;
+  top: 0px;
+  right: 200px;
+}
+.infobox2 {
+  background-color: var(--lightinfobox);
+  position: fixed;
+  top: 185px;
+  right: 200px;
+}
+.infobox3 {
+  background-color: var(--darkinfobox);
+  position: fixed;
+  top: 370px;
+  right: 200px;
+}
+.infobox4 {
+  background-color: var(--lightinfobox);
+  position: fixed;
+  top: 555px;
+  right: 200px;
+  border-bottom-left-radius: 100px;
+}
+
+.infoboxD1 {
+  background-color: var(--darkinfobox);
+  position: fixed;
+  top: 0px;
+  right: 200px;
+}
+.infoboxD2 {
+  background-color: var(--lightinfobox);
+  position: fixed;
+  top: 185px;
+  right: 200px;
+}
+.infoboxD3 {
+  background-color: var(--darkinfobox);
+  position: fixed;
+  top: 370px;
+  right: 200px;
+}
+.infoboxD4 {
+  background-color: var(--lightinfobox);
+  position: fixed;
+  top: 555px;
+  right: 200px;
+}
+.infoboxD5 {
+  background-color: var(--darkinfobox);
+  position: fixed;
+  top: 740px;
+  right: 200px;
+}
+
+.infoboxD6 {
+  background-color: var(--darkinfobox);
+  position: fixed;
+  top: 0px;
+  right: 600px;
+}
+.infoboxD7 {
+  background-color: var(--lightinfobox);
+  position: fixed;
+  top: 185px;
+  right: 600px;
+}
+.infoboxD8 {
+  background-color: var(--darkinfobox);
+  position: fixed;
+  top: 370px;
+  right: 600px;
+}
+.infoboxD9 {
+  background-color: var(--lightinfobox);
+  position: fixed;
+  top: 555px;
+  right: 600px;
+}
+.infoboxD10 {
+  background-color: var(--darkinfobox);
+  position: fixed;
+  top: 740px;
+  right: 600px;
+  border-bottom-left-radius: 100px;
+}
+
+.DRIVER1 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+.DRIVER2 {
+  position: fixed;
+  top: 185px;
+  right: 0px;
+}
+.DRIVER3 {
+  position: fixed;
+  top: 370px;
+  right: 0px;
+}
+.DRIVER4 {
+  position: fixed;
+  top: 555px;
+  right: 0px;
+}
+.DRIVER5 {
+  position: fixed;
+  top: 740px;
+  right: 0px;
+}
+
+.DRIVER6 {
+  position: fixed;
+  top: 0px;
+  right: 400px;
+}
+.DRIVER7 {
+  position: fixed;
+  top: 185px;
+  right: 400px;
+}
+.DRIVER8 {
+  position: fixed;
+  top: 370px;
+  right: 400px;
+}
+.DRIVER9 {
+  position: fixed;
+  top: 555px;
+  right: 400px;
+}
+.DRIVER10 {
+  position: fixed;
+  top: 740px;
+  right: 400px;
+}
+
+.infoboxwrapper div {
+  position: fixed;
+  height: 185px;
+  width: 200px;
+}
+
+#infoboxinhold h3 {
+  text-align: center;
+}
+
+#discbilder img {
+  height: 185px;
+  width: 200px;
+}
+
+a {
+  text-decoration: none !important;
+}

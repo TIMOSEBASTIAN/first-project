@@ -1,0 +1,45 @@
+html {
+  background-image: url(323716062_554579816724974_8669895187019842362_n.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%auto;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.move-btn {
+  position: relative;
+  transition: all 1s ease-in-out;
+  background-color: #5d6d7e;
+  color: #f0f3f4;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 100%;
+}
+.move-btn:hover {
+  transform: translate(10px, 20px);
+  color: #2874a6;
+  background-color: #434f5c;
+}
+
+.fargeknap {
+  background-color: #5d6d7e;
+  color: #f0f3f4;
+  padding: 10px 20px;
+  border: black;
+  border-radius: 100%;
+}
+.fargeBTN {
+  background-color: #5d6d7e;
+  color: #f0f3f4;
+  padding: 10px 20px;
+  border: black;
+  border-radius: 100%;
+}
+
+.titlemore {
+  color: #eb984e;
+}
+
+a {
+  text-decoration: none !important;
+}

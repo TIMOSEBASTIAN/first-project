@@ -1,0 +1,26 @@
+html {
+  background-image: url("dischome2.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #138d75;
+}
+
+.move-btn {
+  position: relative;
+  transition: all 1s ease-in-out;
+  background-color: #5d6d7e;
+  color: #f0f3f4;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 100%;
+}
+.move-btn:hover {
+  transform: translate(10px, 20px);
+  color: #138d75;
+  background-color: #434f5c;
+}
+a {
+  text-decoration: none !important;
+}
